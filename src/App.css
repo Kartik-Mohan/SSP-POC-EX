@@ -1,0 +1,120 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 12px;
+  }
+  
+  .box{
+    box-sizing: border-box;
+    border: 1px solid rgb(202, 202, 202);
+    box-shadow: 5px 5px 8px #b8b8b8;
+    font-size: 13px;
+  }
+  .isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+  }
+  
+  .heading{
+    margin-left: 10px;
+  }
+  
+.shadowBox{
+  box-sizing: border-box;
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow: 5px 10px 8px #8a8a8a;
+    padding: 5px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0,40,86);
+  box-shadow: 5px 5px 8px #0f1631;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.topnav-right {
+  float: right;
+}
+.topnav a:hover {
+  color: rgb(48, 223, 103);
+}
+.footer{
+  bottom: 0%;
+  width: 100%;
+}
+.grid{
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  box-shadow: 2px 2px 2px #c6c6c6;
+  margin: 4px;
+  border-radius: 3px;
+}
+.BP{
+  padding: 10px;
+}
+.grid-BP{
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  box-shadow: 2px 2px 2px #c6c6c6;
+  margin: 4px;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 13px;
+}
+.grid-BP-B{
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  box-shadow: 2px 2px 2px #c6c6c6;
+  margin: 4px;
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 10px;
+}
+.frame{
+  width: 1330px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\for bar chart\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#barGraph{
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #b8b8b8;
+  border: 1px solid #b8b8b8;
+  width: 380px;
+  padding: 10px;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\CPI Table\\\\\\\\\\\\\\\\\\\\ */
+#CPI_Tables{
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #b8b8b8;
+  border: 1px solid #b8b8b8;
+  width: 520px;
+  font-size: 13px;
+}
+#RR_UB_RR{
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #b8b8b8;
+  border: 1px solid #b8b8b8;
+  font-size: 12px;
+  width: 400px;
+}
+/* |||||||||||||||||||||||||||||||ENV PROD||||||||||||||||||||||||||||||||||||||| */
+#EP{
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #b8b8b8;
+  border: 1px solid #b8b8b8;
+  width: 100%;
+  font-size: 13px;
+}
